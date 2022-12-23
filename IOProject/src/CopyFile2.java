@@ -6,8 +6,8 @@ public class CopyFile2 {
     public static void main(String[] args){
         int i;
 
-        try(FileInputStream fin = new FileInputStream("IOProject/src/first.txt");
-        FileOutputStream fout = new FileOutputStream("IOProject/src/third.txt")){
+        try(FileInputStream fin = new FileInputStream("IOProject/src/files/first.txt");
+        FileOutputStream fout = new FileOutputStream("IOProject/src/files/third.txt")){
 
             do{
                 i = fin.read();
